@@ -18,7 +18,7 @@ public class ErrorHandilingTests extends BaseTests {
 
 	@Test(groups = { "errorHandling" }, retryAnalyzer = SeleniumJavaFramework.testComponents.Retry.class)
 	public void loginPageValidation() throws IOException, InterruptedException {
-		// TODO Auto-generated method stub
+		//1st test
 		landingPage.loginApplication("kuma@don.com", "Kumar123");
 		String error = landingPage.getErrorMsg();
 		System.out.println("error" + error);
