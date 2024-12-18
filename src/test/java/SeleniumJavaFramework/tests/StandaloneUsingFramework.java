@@ -20,7 +20,7 @@ import SeleniumJavaFramework.pageObject.ProductsCatalog;
 import SeleniumJavaFramework.testComponents.BaseTests;
 
 public class StandaloneUsingFramework extends BaseTests {
-	// String productName = "IPHONE 13 PRO ";
+	// String productName = "IPHONE 13 PRO";
 	@Test(dataProvider = "getData", groups = { "Purchase" })
 	public void submitOrder(HashMap<String, String> input) throws IOException, InterruptedException {
 		// TODO Auto-generated method stub
