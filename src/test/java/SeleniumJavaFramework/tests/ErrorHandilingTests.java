@@ -22,7 +22,7 @@ public class ErrorHandilingTests extends BaseTests {
 		landingPage.loginApplication("kuma@don.com", "Kumar123");
 		String error = landingPage.getErrorMsg();
 		System.out.println("error" + error);
-		Assert.assertEquals("Incorrect email or Password.", error);
+		Assert.assertEquals("Incorrect email or password.", error);
 
 	}
 
