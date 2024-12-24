@@ -6,6 +6,9 @@
 			<include name="errorHandling" />
 		</run>
 	</groups>
+	<listeners>
+	<listener class-name="SeleniumJavaFramework.testComponents.TestNGListeners"/>
+</listeners>
 
 	<test thread-count="5" name="Submit Order Test">
 		<classes>
